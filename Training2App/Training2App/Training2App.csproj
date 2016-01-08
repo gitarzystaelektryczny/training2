@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Dodawanie.cs" />
     <Compile Include="IDzialania.cs" />
+    <Compile Include="Mnozenie.cs" />
     <Compile Include="Odejmowanie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -21,12 +21,18 @@ namespace Training2App
             b = Convert.ToInt32(Console.ReadLine());
             Dodawanie oDodawanie = new Dodawanie();                       
             Console.WriteLine(oDodawanie.Dzialanie(a, b));
+            int c = oDodawanie.Dzialanie(a, b);
             Console.ReadLine();
 
 
             Odejmowanie oOdejmowanie = new Odejmowanie(a, b);
             Console.WriteLine("Propercje A oraz B: {0} oraz {1}", oOdejmowanie.A, oOdejmowanie.B);
             Console.WriteLine("Odejmowanie A - B: {0}", (oOdejmowanie.A - oOdejmowanie.B));
+            int d = oOdejmowanie.A - oOdejmowanie.B;
+            Console.ReadLine();
+
+            Mnozenie oMnozenie = new Mnozenie(c, d);
+            Console.WriteLine("Mnożenie: {0}", (oMnozenie.A * oMnozenie.B));
             Console.ReadLine();
         }
     }
