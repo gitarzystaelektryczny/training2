@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Training2App
 {
-    interface IDzialania
+     class Dodawanie : IDzialania
     {
-         int Dzialanie(int a, int b);
+        public int Dzialanie(int a, int b)
+        {
+            return a + b;            
+        }        
+
     }
 }
