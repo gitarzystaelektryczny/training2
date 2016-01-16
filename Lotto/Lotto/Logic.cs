@@ -23,6 +23,8 @@ namespace Lotto
                 //wydaje mi się, że zakres musi być o jedną liczbę większą ;)
                 a = rand.Next(1, 47); 
 
+
+                //GitHub extension
                 //też nie wiedziałem, że jest taka metoda Contains();
                 if (!tab.Contains(a))
                 { tab[i] = a;                    
