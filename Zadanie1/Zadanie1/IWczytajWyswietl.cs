@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Zadanie1
 {
-    public class Class1
+    interface IWczytajWyswietl
     {
+        void Wczytaj1();
+        void Wyswietl();
     }
 }
